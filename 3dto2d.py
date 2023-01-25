@@ -17,7 +17,7 @@ width = 1000
 height = 500
 screen_color = (49, 150, 100)
 line_color = (255, 0, 0)
-focal_length = 10000
+focal_length = 10
 vertices_2D = []
 for i in vertices_3D:
     x = i[0] * (focal_length/(focal_length+i[2]))
