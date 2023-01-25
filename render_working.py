@@ -67,7 +67,7 @@ def main():
         for i in edge_table:
             pygame.draw.line(screen, line_color, vertices_2D[i[0]],vertices_2D[i[1]])
         pygame.display.flip()
-        #time.sleep(0.15)
+        time.sleep(0.15)
 
     while True:
         for events in pygame.event.get():
